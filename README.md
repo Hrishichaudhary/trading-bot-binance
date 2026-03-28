@@ -45,10 +45,12 @@ trading_bot/
     pip install -r requirements.txt
 
 # ▶️ How to Run
+```
 🔹 MARKET Order:
     python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
 🔹 LIMIT Order:
     python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 60000
+```
 
 ## 📊 Market Order Output:
 ![Market Order](assets/market_order.png)
