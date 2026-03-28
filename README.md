@@ -1,10 +1,9 @@
-```md
 # Binance Futures Trading Bot (CLI)
 
 ## 📌 Overview
 This project is a simplified trading bot built in Python that simulates order placement on Binance Futures (USDT-M). It supports both MARKET and LIMIT orders via a command-line interface (CLI), with proper validation, logging, and modular structure.
 
----
+-
 
 ## 🚀 Features
 - Place **MARKET** and **LIMIT** orders
@@ -14,7 +13,7 @@ This project is a simplified trading bot built in Python that simulates order pl
 - Structured modular code (client, orders, validators, logging)
 - Logging of requests, responses, and errors
 
----
+-
 
 ## 🗂️ Project Structure
 ```
@@ -34,7 +33,7 @@ trading_bot/
 ├── bot.log
 ```
 
----
+-
 
 ## ⚙️ Setup Instructions
 
@@ -59,4 +58,3 @@ trading_bot/
 
 ## 📊 Log Output:
 ![Log Output](output/Log-Output.png)
-
