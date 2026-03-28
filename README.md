@@ -57,4 +57,4 @@ trading_bot/
 ![Limit Order](assets/limit_order.png)
 
 ## 📊 Log Output:
-![Log Output](output/Log-Output.png)
+![Log Output](assets/Log-Output.png)
