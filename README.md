@@ -1,3 +1,4 @@
+```md
 # Binance Futures Trading Bot (CLI)
 
 ## 📌 Overview
@@ -19,49 +20,43 @@ This project is a simplified trading bot built in Python that simulates order pl
 ```
 trading_bot/
 │
+├──assets
 ├── bot/
 │ ├── init.py
-│ ├── client.py # Client (Mock / API wrapper)
-│ ├── orders.py # Order placement logic
-│ ├── validators.py # Input validation
+│ ├── client.py
+│ ├── orders.py
+│ ├── validators.py
 │ ├── logging_config.py
 │
-├── cli.py # CLI entry point
+├── cli.py
 ├── requirements.txt
 ├── README.md
-├── bot.log # Sample log output
+├── bot.log
 ```
 
 ---
 
 ## ⚙️ Setup Instructions
 
-1. Clone the repository:
-```bash
-git clone <your-repo-link>
-cd trading_bot
+### 1. Clone the repository:
+    git clone https://github.com/Hrishichaudhary/trading-bot-binance.git
+    cd trading-bot
 
 2. Install dependencies:
     pip install -r requirements.txt
 
-▶️ How to Run
-
+# ▶️ How to Run
 🔹 MARKET Order:
     python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
-
 🔹 LIMIT Order:
     python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 60000
 
-## 📊 Market Order Output
+## 📊 Market Order Output:
 ![Market Order](assets/market_order.png)
 
-## 📊 Limit Order Output
+## 📊 Limit Order Output:
 ![Limit Order](assets/limit_order.png)
 
-## 📊 Log Output
+## 📊 Log Output:
 ![Log Output](output/Log-Output.png)
-        
-👤 Author
-
-Hrishikesh K. Chaudhary
 
