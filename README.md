@@ -13,8 +13,6 @@ This project is a simplified trading bot built in Python that simulates order pl
 - Structured modular code (client, orders, validators, logging)
 - Logging of requests, responses, and errors
 
--
-
 ## 🗂️ Project Structure
 ```
 trading_bot/
@@ -33,23 +31,21 @@ trading_bot/
 ├── bot.log
 ```
 
--
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository:
     git clone https://github.com/Hrishichaudhary/trading-bot-binance.git
     cd trading-bot
 
-2. Install dependencies:
+### 2. Install dependencies:
     pip install -r requirements.txt
 
 # ▶️ How to Run
 
-* MARKET Order:
+### MARKET Order:
         python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
     
-* LIMIT Order:
+### LIMIT Order:
         python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 60000
 
 
