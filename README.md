@@ -3,8 +3,6 @@
 ## 📌 Overview
 This project is a simplified trading bot built in Python that simulates order placement on Binance Futures (USDT-M). It supports both MARKET and LIMIT orders via a command-line interface (CLI), with proper validation, logging, and modular structure.
 
--
-
 ## 🚀 Features
 - Place **MARKET** and **LIMIT** orders
 - Supports both **BUY** and **SELL**
