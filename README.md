@@ -55,3 +55,6 @@ trading_bot/
 
 ## 📊 Log Output:
 ![Log Output](assets/Log-Output.png)
+
+## Assumptions
+- Mock client used due to Binance Futures Testnet API access limitations.
